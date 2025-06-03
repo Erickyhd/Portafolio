@@ -5,6 +5,7 @@ import bienestar from "../img/bienestar.webp";
 import ian from "../img/ian.webp";
 import solintels from "../img/solintels.webp";
 import CompProyectos from "../components/CompProyectos";
+import cv from "../context/cv.pdf"
 function Proyectos() {
   const { color } = useAuth();
   return (
@@ -89,7 +90,7 @@ function Proyectos() {
       <section className="backdrop-blur-md bg-white/40 p-2 m-4 rounded-lg shadow-lg text-black flex flex-col items-center italic text-2xl transition-all duration-1000 ease-out group relative">
         <button className="pointer flex flex-col items-center justify-center rounded-lg">
           <a
-            href="../../public/cv.pdf"
+            href={cv}
             download={true}
             className="p-2 flex flex-col items-center cursor-pointer hover:bg-white hover:text-black transition-all duration-300 rounded-lg"
           >
