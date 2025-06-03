@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import { HashRouter , Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Error from "./pages/Error";
 import Sidebar from "./pages/Sidebar";
@@ -11,7 +11,7 @@ import Estudios from "./pages/Estudios";
 function App() {
   return (
     <Authcontext>
-      <BrowserRouter>
+      <HashRouter >
         <Sidebar />
         <Routes>
           <Route element={<Home />}>
@@ -21,7 +21,7 @@ function App() {
             <Route path="/*" element={<Error />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter >
     </Authcontext>
   );
 }
