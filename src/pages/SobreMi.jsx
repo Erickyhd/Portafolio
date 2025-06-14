@@ -62,7 +62,7 @@ function SobreMi() {
           />
           <section className="flex gap-4 text-4xl py-4 justify-evenly">
             <a
-              href="https://www.linkedin.com/in/erick-h-d-404332259/"
+              href="https://www.linkedin.com/in/erick-huaman-diego-404332259?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTuHL3c7ASuSIXW9KGv43hA%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
             >
